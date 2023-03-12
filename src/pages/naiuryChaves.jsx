@@ -24,7 +24,7 @@ export default function naiuryChaves() {
                 <div className="pt-12 pl-10 w-[90%]">
                     <div className="flex items-center">
                         <Image
-                            src={'/image/user.png'}
+                            src={'/image/naiury_chaves.png'}
                             width={100}
                             height={50}
                             alt='Naiury Chaves'

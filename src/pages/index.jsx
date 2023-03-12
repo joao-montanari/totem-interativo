@@ -38,11 +38,21 @@ export default function Home() {
               <strong>Objetivo do projeto: </strong> O objetivo do projeto é de desenvolver uma ferramente interativa que vai estar disposta em um Totem ajudando os colaboradores da ETS e da Bosch a solucioarem as suas duvidas referentes ao ambiente corporativo. Ademais, a mesma tem o objetivo de se tornar uma inteligência da empresa que integra inumeras funcionalidade e funções, tais como as já estabelecidas:
             </p>
             <ul className='list-disc pl-10'>
-              <li>Agenda da Semana;</li>
-              <li>Mapa da planta;</li>
-              <li>Projetos da ETS;</li>
-              <li>Grade de cursos;</li>
-              <li>Resposta para perguntas frequêntes da Bosch.</li>
+              <li>
+                Agenda da Semana;
+              </li>
+              <li>
+                Mapa da planta;
+              </li>
+              <li>
+                Projetos da ETS;
+              </li>
+              <li>
+                Grade de cursos;
+              </li>
+              <li>
+                Resposta para perguntas frequêntes da Bosch.
+              </li>
             </ul>
           </div>
         </div>

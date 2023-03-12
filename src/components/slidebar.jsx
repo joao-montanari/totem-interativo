@@ -15,7 +15,7 @@ export default function SlideBar() {
         { title: 'Giovanna Freitas', img: 'giovanna_freitas', src: 'giovannaFreitas' },
         { title: 'João Montanari', img: 'joao_montanari', src: 'joaoMontanari' },
         { title: 'Maitê Favaro', img: 'maite_favaro', src: 'maiteFavaro' },
-        { title: 'Naiury Chaves', img: 'user', src: 'naiuryChaves' },
+        { title: 'Naiury Chaves', img: 'naiury_chaves', src: 'naiuryChaves' },
     ]
 
     return (
