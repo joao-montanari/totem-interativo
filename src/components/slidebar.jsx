@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useState } from "react"
 
 export default function SlideBar() {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     const Menu = [
         { title: '1º Sprint', img: 'peca', src: 'sprintum' },
         { title: '2º Sprint', img: 'engrenagem', src: 'sprintdois'},
         { title: '3º Sprint', img: 'entrega', src: 'sprinttres' },
-        { title: 'Developers', img: 'developers', gap: true },
+        { title: 'Developers', img: 'developers', src: '', gap: true },
         { title: 'Daniel Dante', img: 'daniel_dante', src: 'danielDante' },
         { title: 'Giovanna Freitas', img: 'giovanna_freitas', src: 'giovannaFreitas' },
         { title: 'João Montanari', img: 'joao_montanari', src: 'joaoMontanari' },
@@ -27,18 +27,20 @@ export default function SlideBar() {
                 className={`absolute w-8 cursor-pointer -right-4 top-16 border-2 border-[#1143c2] rounded-full p-1 bg-white duration-500 ${!open && 'rotate-180'}`}
                 onClick={() => setOpen(!open)}
             />
-            <div className="flex gap-x-4 items-center">
-                <Image
-                    src={'/image/logo.png'}
-                    width={50}
-                    height={50}
-                    alt='logo'
-                    className={`cursor-pointer duration-500 ${!open && 'rotate-180'}`}
-                />
-                <h1 className={`text-white origin-left font-medium text-4xl duration-300 ${!open && 'scale-0'}`}>
-                    Avilla
-                </h1>
-            </div>
+            <Link href={'/'}>
+                <div className="flex gap-x-4 items-center">
+                        <Image
+                            src={'/image/logo.png'}
+                            width={50}
+                            height={50}
+                            alt='logo'
+                            className={`cursor-pointer duration-500 ${!open && 'rotate-180'}`}
+                        />
+                    <h1 className={`text-white origin-left font-medium text-4xl duration-300 ${!open && 'scale-0'}`}>
+                        Avilla
+                    </h1>
+                </div>
+            </Link>
             <ul>
                 {
                     Menu.map((aba, index)=>(
