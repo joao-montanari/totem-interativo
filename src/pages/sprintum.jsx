@@ -21,8 +21,10 @@ export default function sprintUm() {
                 />
                 </div>
                 <div className='flex'>
-                <SlideBar/>
-                    <div className='pt-12 pl-10 w-[90%]'>
+                    <div className='top-0 left-0 fixed'>
+                        <SlideBar/>
+                    </div>
+                    <div className='pt-12 pl-80 w-full'>
                         <h1 className='text-5xl mb-8'>
                             1º Sprint
                         </h1>
@@ -31,7 +33,7 @@ export default function sprintUm() {
                         </h2>
                         <ul className="list-disc pl-8 text-gray-500 mb-8">
                             <li>Estudo de Ferramentas;</li>
-                            <li>Resposta para perguntas frequentes da Bosch/ETS;</li>
+                            <li>Assitente Virtual da Bosch/ETS;</li>
                             <li>Grade de cursos;</li>
                             <li>Agenda da semana;</li>
                             <li>Interatividade por voz;</li>
@@ -55,16 +57,16 @@ export default function sprintUm() {
                             </li>
                             <li>
                                 <strong>Maitê Favaro: </strong>
-                                Resposta para perguntas frequentes da Bosch/ETS;
+                                Assitente Virtual da Bosch/ETS;
                             </li>
                             <li>
                                 <strong>Naiury Chaves: </strong>
-                                Resposta para perguntas frequentes da Bosch/ETS;
+                                Assitente Virtual da Bosch/ETS;
                             </li>
                         </ul>
                         <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
                             <h2 className="text-3xl mb-5 text-black">
-                                💡 Resposta para perguntas frequentes:
+                                💡 Assitente Virtual:
                             </h2>
                             <strong>Descrição: </strong>
                                 É imprescindível que o usuário possa sanar as suas principais dúvidas acerca da empresa Bosch e sua planta. Ademais ele deve apresentar respostas precisas com relação a ETS (Escola técnica de engenharia), setor da Bosch responsável pelos aprendizes. Inclusive, o projeto não deve apenas se limitar a perguntas relacionadas ao universo Bosch, mas como também deve apresentar respostas que envolvem temas didáticos e técnicos tais como eletroeletrônica, mecânica, programação, administração, economia e metodologias de trabalho.

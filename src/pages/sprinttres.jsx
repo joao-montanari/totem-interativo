@@ -21,8 +21,10 @@ export default function sprintDois() {
                 />
                 </div>
                 <div className='flex'>
-                <SlideBar/>
-                    <div className='pt-12 pl-10 w-[90%]'>
+                    <div className='top-0 left-0 fixed'>
+                        <SlideBar/>
+                    </div>
+                    <div className='pt-12 pl-80 w-full'>
                         <h1 className='text-5xl mb-8'>
                             3º Sprint
                         </h1>
