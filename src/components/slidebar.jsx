@@ -9,11 +9,12 @@ export default function SlideBar() {
         { title: '1º Sprint', img: 'peca', src: 'sprintum' },
         { title: '2º Sprint', img: 'engrenagem', src: 'sprintdois'},
         { title: '3º Sprint', img: 'entrega', src: 'sprinttres' },
+        { title: 'Documentação', img: 'documentacao', src: 'documentacao' },
         { title: 'Developers', img: 'developers', src: '', gap: true },
         { title: 'Daniel Dante', img: 'daniel_dante', src: 'danielDante' },
         { title: 'Giovanna Freitas', img: 'giovanna_freitas', src: 'giovannaFreitas' },
         { title: 'João Montanari', img: 'joao_montanari', src: 'joaoMontanari' },
-        { title: 'Maitê Favaro', img: 'user', src: 'maiteFavaro' },
+        { title: 'Maitê Favaro', img: 'maite_favaro', src: 'maiteFavaro' },
         { title: 'Naiury Chaves', img: 'user', src: 'naiuryChaves' },
     ]
 
