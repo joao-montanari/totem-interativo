@@ -117,6 +117,22 @@ export default function sprintUm() {
                                 <li className="mt-1">Quando o card for acessado ele deve informar o instrutor responsável pela aula, o horário, o dia e a sala reservada para a aula.</li>
                             </ul>
                         </div>
+                        <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
+                            <h2 className="text-3xl mb-5 text-black">
+                                👨‍🎓 Grade de cursos:
+                            </h2>
+                            <strong>Descrição: </strong>
+                                O sistema deve permitir que o usuário veja quais os cursos existem na ETS. Caso a pergunta seja sobre um curso específico deverá retornar só ele, exemplo: “quero saber sobre o curso de manufatura” e aparece sobre o curso de manufatura na tela. Caso o usuário tenha perguntado apenas “cursos da ETS” sem especificar nenhum, deverá retornar todos os cursos existentes.
+                            <p className="font-bold mt-3">
+                                Modo de funcionamento:
+                            </p>
+                            <ul className="list-disc pl-7">
+                                <li className="mt-1">O sistema deve informar nome dos cursos sob a imagem;</li>
+                                <li className="mt-1">Os botões de microfone e teclado não devem desaparecer da tela, para caso o usuário queira pedir por outro requisito (como cardápio, por exemplo);</li>
+                                <li className="mt-1">Caso seja para renderizar todos os cursos, o sistema deve ter duas setas (uma de cada lado) para passar para o próximo/anterior projeto quando forem clicadas;</li>
+                                <li className="mt-1">Todas as informações virão de uma api com todas as informações de cursos cadastradas, caso queiram modificar, adicionar ou remover cursos o mesmo deverá ser feito pelos instrutores (pois eles quem tem controle dos cursos da ETS) que terão acesso à api.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </main>
