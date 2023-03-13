@@ -6,10 +6,13 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/header'
 import SlideBar from '@/components/slidebar'
 import Test from '@/components/test'
+import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [aba, setAba] = useState(true);
+
   return (
     <>
       <Head>
@@ -30,9 +33,11 @@ export default function Home() {
         </div>
         <div className='flex'>
           <div className='top-0 left-0 fixed'>
-            <SlideBar/>
+            <SlideBar
+              setTrigger={setAba}
+            />
           </div>
-          <div className='pt-12 pl-80 w-full'>
+          <div className={`${aba ? "pl-80" : "pl-28"} pt-12 w-full duration-300`}>
             <h1 className='text-5xl mb-8'>
               Home
             </h1>

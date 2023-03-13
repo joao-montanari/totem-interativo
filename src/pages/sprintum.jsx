@@ -1,10 +1,13 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import { useState } from "react"
 
 import SlideBar from "@/components/slidebar"
 
 export default function sprintUm() {
+    const [aba, setAba] = useState(true);
+
     return(
         <>
             <Head>
@@ -23,9 +26,11 @@ export default function sprintUm() {
                 </div>
                 <div className='flex'>
                     <div className='top-0 left-0 fixed'>
-                        <SlideBar/>
+                        <SlideBar
+                            setTrigger={setAba}
+                        />
                     </div>
-                    <div className='pt-12 pl-80 w-full'>
+                    <div className={`${aba ? "pl-80" : "pl-28"} pt-12 w-full duration-300`}>
                         <h1 className='text-5xl mb-8'>
                             1º Sprint
                         </h1>

@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link";
 import { useState } from "react"
 
-export default function SlideBar() {
+export default function SlideBar({ setTrigger }) {
     const [open, setOpen] = useState(true);
     const Menu = [
         { title: '1º Sprint', img: 'peca', src: 'sprintum' },
@@ -26,7 +26,7 @@ export default function SlideBar() {
                 height={50}
                 alt='Button SlideBar'
                 className={`absolute w-8 cursor-pointer -right-4 top-16 border-2 border-[#1143c2] rounded-full p-1 bg-white duration-500 ${!open && 'rotate-180'}`}
-                onClick={() => setOpen(!open)}
+                onClick={() => {setOpen(!open); setTrigger(!open)}}
             />
             <Link href={'/'}>
                 <div className="flex gap-x-4 items-center">

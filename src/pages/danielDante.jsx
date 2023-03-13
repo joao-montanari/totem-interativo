@@ -1,9 +1,12 @@
 import Image from "next/image"
 import Head from "next/head"
+import { useState } from "react";
 
 import SlideBar from "@/components/slidebar"
 
 export default function danielDante() {
+    const [aba, setAba] = useState(true);
+
     return(
         <>
             <Head>
@@ -21,9 +24,11 @@ export default function danielDante() {
             </div>
             <div className="flex">
                 <div className='top-0 left-0 fixed'>
-                    <SlideBar/>
+                    <SlideBar
+                        setTrigger={setAba}
+                    />
                 </div>
-                <div className="pt-12 pl-80 w-full">
+                <div className={`${aba ? "pl-80" : "pl-28"} pt-12 w-full duration-300`}>
                     <div className="flex items-center">
                         <Image
                             src={'/image/daniel_dante.png'}
