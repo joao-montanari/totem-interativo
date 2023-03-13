@@ -37,7 +37,7 @@ export default function maiteFavaro() {
                                 Maitê Favaro
                             </li>
                             <li className="text-3xl text-gray-500 mb-3">
-                                Idade: 19 anos
+                                Idade: 18 anos
                             </li>
                             <li className="flex">
                                 <a href="https://github.com/maitefavaro" target={"_blank"} className="mr-4">
