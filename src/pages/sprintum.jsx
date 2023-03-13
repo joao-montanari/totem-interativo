@@ -38,6 +38,7 @@ export default function sprintUm() {
                             <li>Grade de cursos;</li>
                             <li>Agenda da semana;</li>
                             <li>Interatividade por voz;</li>
+                            <li>Registro de projetos;</li>
                             <li>Interface.</li>
                         </ul>
                         <h2 className="text-3xl mb-3">
@@ -66,7 +67,7 @@ export default function sprintUm() {
                             </li>
                         </ul>
                         <h2 className="text-3xl mb-3">
-                            ⌨️ Tecnoligias usadas:
+                            ⌨️ Tecnologias usadas:
                         </h2>
                         <ul className="flex justify-around w-[95%] text-gray-500 mb-20 mt-4 p-2 bg-gray-200 rounded-md shadow">
                             <li className="w-28 text-center p-2 rounded-full bg-slate-300">
