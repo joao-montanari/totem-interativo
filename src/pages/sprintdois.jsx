@@ -34,7 +34,7 @@ export default function sprintDois() {
                         <ul className="list-disc pl-8 text-gray-500 mb-8">
                             <li>Reserva de salas;</li>
                             <li>Mapa da planta;</li>
-                            
+                            <li>Montagem da parte física;</li>
                             <li>Desenvolvimento da interface.</li>
                         </ul>
                     </div>

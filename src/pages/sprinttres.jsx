@@ -33,7 +33,6 @@ export default function sprintDois() {
                         </h2>
                         <ul className="list-disc pl-8 text-gray-500 mb-8">
                             <li>Interatividade com outras linguas e libras;</li>
-                            <li>Montagem da parte física;</li>
                             <li>Desenvolvimento da interface;</li>
                             <li>Montagem da apresentação e do Pitch.</li>
                         </ul>
