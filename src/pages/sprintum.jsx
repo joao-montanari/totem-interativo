@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import Link from "next/link"
 
 import SlideBar from "@/components/slidebar"
 
@@ -62,6 +63,61 @@ export default function sprintUm() {
                             <li>
                                 <strong>Naiury Chaves: </strong>
                                 Assitente Virtual da Bosch/ETS;
+                            </li>
+                        </ul>
+                        <h2 className="text-3xl mb-3">
+                            ⌨️ Tecnoligias usadas:
+                        </h2>
+                        <ul className="flex justify-around w-[95%] text-gray-500 mb-20 mt-4 p-2 bg-gray-200 rounded-md shadow">
+                            <li className="w-28 text-center p-2 rounded-full bg-slate-300">
+                                <Image
+                                    src={'/image/nextjs.svg'}
+                                    width={50}
+                                    height={50}
+                                    alt='Next JS'
+                                    className="m-auto"
+                                />
+                                Next Js
+                            </li>
+                            <li className="w-28 text-center p-2 rounded-full bg-slate-300">
+                                <Image
+                                    src={'/image/sqlite.svg'}
+                                    width={50}
+                                    height={50}
+                                    alt='SQLite'
+                                    className="m-auto"
+                                />
+                                SQLite
+                            </li>
+                            <li className="w-28 text-center p-2 rounded-full bg-slate-300">
+                                <Image
+                                    src={'/image/fastapi.svg'}
+                                    width={50}
+                                    height={50}
+                                    alt='Fast API'
+                                    className="m-auto"
+                                />
+                                Fast API
+                            </li>
+                            <li className="w-28 text-center p-2 rounded-full bg-slate-300">
+                                <Image
+                                    src={'/image/figma.svg'}
+                                    width={50}
+                                    height={50}
+                                    alt='Figma'
+                                    className="m-auto"
+                                />
+                                Figma
+                            </li>
+                            <li className="w-28 text-center p-2 rounded-full bg-slate-300">
+                                <Image
+                                    src={'/image/machine-learning.png'}
+                                    width={50}
+                                    height={50}
+                                    alt='Machine Learning'
+                                    className="m-auto"
+                                />
+                                IA
                             </li>
                         </ul>
                         <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">

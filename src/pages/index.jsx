@@ -37,9 +37,9 @@ export default function Home() {
               Home
             </h1>
             <p className='w-[95%] text-justify'>
-              <strong>Objetivo do projeto: </strong> O objetivo do projeto é de desenvolver uma ferramente interativa que vai estar disposta em um Totem ajudando os colaboradores da ETS e da Bosch a solucioarem as suas duvidas referentes ao ambiente corporativo. Ademais, a mesma tem o objetivo de se tornar uma inteligência da empresa que integra inumeras funcionalidade e funções, tais como as já estabelecidas:
+              <strong>Objetivo do projeto: </strong> O objetivo do projeto é de desenvolver uma ferramente interativa que vai estar disposta em um Totem ajudando os colaboradores da ETS e da Bosch a solucionarem as suas duvidas referentes ao ambiente corporativo. Ademais, a mesma tem o objetivo de se tornar uma inteligência da empresa que integra inumeras funcionalidade, tais como as já estabelecidas:
             </p>
-            <ul className='list-disc pl-10'>
+            <ul className='list-disc pl-10 mb-8'>
               <li>
                 Agenda da Semana;
               </li>
@@ -56,6 +56,16 @@ export default function Home() {
                 Resposta para perguntas frequêntes da Bosch.
               </li>
             </ul>
+            <h2 className='text-3xl mb-3'>
+              📄 Documentação Completa:
+            </h2>
+            <Image
+              src={'/image/qrcode_documentacao.png'}
+              width={200}
+              height={100}
+              alt="QRCode da documentacao"
+              className='ml-5 p-2 border-2 border-gray-600 rounded-lg mt-5'
+            />
           </div>
         </div>
       </main>

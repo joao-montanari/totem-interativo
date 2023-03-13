@@ -29,9 +29,9 @@ export default function sprintDois() {
                             3º Sprint
                         </h1>
                         <h2 className="text-3xl mb-3">
-                            Metas Definidas:
+                            🏆 Metas Definidas:
                         </h2>
-                        <ul className="list-disc pl-8">
+                        <ul className="list-disc pl-8 text-gray-500 mb-8">
                             <li>Interatividade com outras linguas e libras;</li>
                             <li>Montagem da parte física;</li>
                             <li>Desenvolvimento da interface;</li>

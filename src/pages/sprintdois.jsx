@@ -29,9 +29,9 @@ export default function sprintDois() {
                             2º Sprint
                         </h1>
                         <h2 className="text-3xl mb-3">
-                            Metas Definidas:
+                            🏆 Metas Definidas:
                         </h2>
-                        <ul className="list-disc pl-8">
+                        <ul className="list-disc pl-8 text-gray-500 mb-8">
                             <li>Reserva de salas;</li>
                             <li>Mapa da planta;</li>
                             <li>Registro de projetos;</li>
