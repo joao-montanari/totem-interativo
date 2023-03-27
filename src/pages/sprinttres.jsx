@@ -13,7 +13,7 @@ export default function sprintDois() {
                 <title>3º Sprint</title>
                 <link rel="icon" href="/image/logo.png" />
             </Head>
-            <main>
+            <main className="font-mono">
                 <div className="w-full h-2">
                 <Image
                     width={100}

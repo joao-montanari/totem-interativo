@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/logo.png" />
       </Head>
-      <main>
+      <main className='font-mono'>
         <div className="w-full h-2">
           <Image
             width={100}
@@ -38,7 +38,7 @@ export default function Home() {
             />
           </div>
           <div className={`${aba ? "pl-80" : "pl-28"} pt-12 w-full duration-300`}>
-            <h1 className='text-5xl mb-8'>
+            <h1 className='text-5xl mb-8 font-bold'>
               Home
             </h1>
             <p className='w-[95%] text-justify'>
@@ -58,7 +58,7 @@ export default function Home() {
                 Grade de cursos;
               </li>
               <li>
-                Resposta para perguntas frequêntes da Bosch.
+                Resposta para perguntas frequentes da Bosch.
               </li>
             </ul>
             <h2 className='text-3xl mb-3'>

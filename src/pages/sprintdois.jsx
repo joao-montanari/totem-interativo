@@ -13,7 +13,7 @@ export default function sprintDois() {
                 <title>2º Sprint</title>
                 <link rel="icon" href="/image/logo.png" />
             </Head>
-            <main>
+            <main className="font-mono">
                 <div className="w-full h-2">
                 <Image
                     width={100}
@@ -56,11 +56,11 @@ export default function sprintDois() {
                             </li>
                             <li>
                                 <strong>João Montanari: </strong>
-                                Montagem da parte física;
+                                Montagem física do totem;
                             </li>
                             <li>
                                 <strong>Maitê Favaro: </strong>
-                                Montagem da parte física;
+                                Montagem física do totem;
                             </li>
                             <li>
                                 <strong>Naiury Chaves: </strong>
@@ -124,19 +124,45 @@ export default function sprintDois() {
                         </ul>
                         <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
                             <h2 className="text-3xl mb-5 text-black">
-                                🗺 Mapa da planta:
+                                🗺️ Mapa da planta:
                             </h2>
-                            <strong>Descrição: </strong>
-                                É imprescindível que o usuário possa sanar as suas principais dúvidas acerca da empresa Bosch e sua planta. Ademais ele deve apresentar respostas precisas com relação a ETS (Escola técnica de engenharia), setor da Bosch responsável pelos aprendizes. Inclusive, o projeto não deve apenas se limitar a perguntas relacionadas ao universo Bosch, mas como também deve apresentar respostas que envolvem temas didáticos e técnicos tais como eletroeletrônica, mecânica, programação, administração, economia e metodologias de trabalho.
                             <p className="font-bold mt-3">
-                                Modo de funcionamento:
+                                Ações tomadas:
                             </p>
                             <ul className="list-disc pl-7">
-                                <li className="mt-1">Para que o sistema responda as perguntas, primeiro ele deverá recebê-las por meio de áudio ou texto, o sistema deve procurar a reposta para a mesma e reproduzi-la em áudio e texto;</li>
-                                <li className="mt-1">O sistema deve conter um botão com imagem de microfone para que o usuário clique antes de falar a pergunta, ao clicar o usuário já pode falar;</li>
-                                <li className="mt-1">Pode ser que o usuário prefira digitar, por isso o sistema deve conter um botão com imagem de teclado ao lado do botão de microfone, para que quando for clicado apareça a caixa de texto onde o usuário poderá digitar com um “escreva aqui sua pergunta” de tom claro escrito na caixa de texto;</li>
-                                <li className="mt-1">Assim que o usuário informar a sua pergunta, o sistema deve informar no centro da tela em formato de texto qual a resposta da pergunta, assim como deverá reproduzi-la por meio de áudio. A pergunta permanecerá na tela, só que agora na parte de cima;</li>
-                                <li className="mt-1">Caso a pergunta não tenha sido encontrada no banco de perguntas e respostas, o sistema deve retornar “Desculpe, ainda não temos resposta para a sua pergunta! Mas já a enviamos para nosso sistema e estaremos trabalhando em respostas para a mesma”. E cadastrar a pergunta no banco de perguntas para que posteriormente seja analisada pelos manutentores.</li>
+                                <li className="mt-1">Estudo de ferramentas;</li>
+                                <li className="mt-1">Identificação e localização de cada área planta da Bosch Campinas;</li>
+                                <li className="mt-1">Identificação de rotas e estradas;</li>
+                                <li className="mt-1">Esboço de cada prédio;</li>
+                                <li className="">Inicio da estilização dos prédios.</li>
+                            </ul>
+                        </div>
+                        <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
+                            <h2 className="text-3xl mb-5 text-black">
+                                ⚙️ Montagem física do totem:
+                            </h2>
+                            <p className="font-bold mt-3">
+                                Ações tomadas:
+                            </p>
+                            <ul className="list-disc pl-7">
+                                <li className="mt-1">Criação e organização do orçamento;</li>
+                                <li className="mt-1">Definição de medidas;</li>
+                                <li className="mt-1">Modelagem no SolidWorks</li>
+                                <li className="mt-1">Detalhamento no SolidWorks</li>
+                                <li className="mt-1">Planejamento para dar início a montagem.</li>
+                            </ul>
+                        </div>
+                        <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
+                            <h2 className="text-3xl mb-5 text-black">
+                                🖥️ Desenvolvimento da interface:
+                            </h2>
+                            <p className="font-bold mt-3">
+                                Ações tomadas:
+                            </p>
+                            <ul className="list-disc pl-7">
+                                <li className="mt-1">Atualização e integração do projeto Front-End do Assistente Virtual;</li>
+                                <li className="mt-1">Identidade visual com avatar, logo e arte;</li>
+                                <li className="mt-1">Renderização de arquivos 3D (Mapa e Avatar).</li>
                             </ul>
                         </div>
                     </div>
