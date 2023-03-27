@@ -147,8 +147,8 @@ export default function sprintDois() {
                             <ul className="list-disc pl-7">
                                 <li className="mt-1">Criação e organização do orçamento;</li>
                                 <li className="mt-1">Definição de medidas;</li>
-                                <li className="mt-1">Modelagem no SolidWorks</li>
-                                <li className="mt-1">Detalhamento no SolidWorks</li>
+                                <li className="mt-1">Modelagem no SolidWorks;</li>
+                                <li className="mt-1">Detalhamento no SolidWorks;</li>
                                 <li className="mt-1">Planejamento para dar início a montagem.</li>
                             </ul>
                         </div>
