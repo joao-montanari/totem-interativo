@@ -31,7 +31,7 @@ export default function sprintUm() {
                         />
                     </div>
                     <div className={`${aba ? "pl-80" : "pl-28"} pt-12 w-full duration-300`}>
-                        <h1 className='text-5xl mb-8'>
+                        <h1 className='text-5xl mb-8 font-bold'>
                             1º Sprint
                         </h1>
                         <h2 className="text-3xl mb-3">
