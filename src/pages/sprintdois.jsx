@@ -1,11 +1,35 @@
 import Head from "next/head"
 import Image from "next/image"
-import { useState } from "react"
+import { motion } from 'framer-motion'
+import { useState, useRef, useEffect } from "react"
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
+
+import Carrossel from "@/components/carrossel"
 
 import SlideBar from "@/components/slidebar"
 
 export default function sprintDois() {
     const [aba, setAba] = useState(true);
+    const [width, setWidth] = useState(0);
+    const [curr, setCurr] = useState(0);
+
+    const totem = [
+        '/image/totem/1.jpg',
+        '/image/totem/2.jpg',
+        '/image/totem/3.jpg',
+        '/image/totem/4.jpg',
+        '/image/totem/5.jpg',
+        '/image/totem/6.jpg',
+        '/image/totem/7.jpg',
+        '/image/totem/10.jpg',
+    ]
+
+    const visual = [
+        '/image/visual/1.png',
+        '/image/visual/2.png',
+        '/image/visual/3.png',
+        '/image/visual/4.png',
+    ]
 
     return(
         <>
@@ -151,6 +175,9 @@ export default function sprintDois() {
                                 <li className="mt-1">Detalhamento no SolidWorks;</li>
                                 <li className="mt-1">Planejamento para dar início a montagem.</li>
                             </ul>
+                            <Carrossel
+                                imagens={totem}
+                            />
                         </div>
                         <div className="border border-gray-500 w-[95%] rounded-md p-10 text-gray-500 text-justify mb-20 shadow-xl">
                             <h2 className="text-3xl mb-5 text-black">
@@ -164,6 +191,9 @@ export default function sprintDois() {
                                 <li className="mt-1">Identidade visual com avatar, logo e arte;</li>
                                 <li className="mt-1">Renderização de arquivos 3D (Mapa e Avatar).</li>
                             </ul>
+                            <Carrossel
+                                imagens={visual}
+                            />
                         </div>
                     </div>
                 </div>
