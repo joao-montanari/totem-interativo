@@ -28,8 +28,8 @@ export default function Carrossel({ imagens }) {
                         className='flex transition-transform ease-out duration-500'
                     >
                         {
-                            imagens.map((image) => (
-                                <Image src={image} alt="Imagens" className='w-96 rounded-lg shadow-lg' width={300} height={200} />
+                            imagens.map((image, i) => (
+                                <Image src={image} key={i} alt="Imagens" className='w-96 rounded-lg shadow-lg' width={300} height={200} />
                             ))
                         }
                     </div>
@@ -45,8 +45,7 @@ export default function Carrossel({ imagens }) {
                 <div className='flex items-center justify-center gap-2'>
                     {
                         imagens.map((item, i) => (
-                            <div className={`transition-all w-3 h-3 bg-gray-400 rounded-full ${curr === i ? "p-3" : "bg-opacity-50"}`}>
-                            </div>
+                            <div key={i} className={`transition-all w-3 h-3 bg-gray-400 rounded-full ${curr === i ? "p-3" : "bg-opacity-50"}`}/>
                         ))
                     }
                 </div>
